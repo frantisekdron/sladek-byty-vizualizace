@@ -1,5 +1,5 @@
 # Dva byty – vizualizace
 
-Šest návrhů interiérů, porovnání s 29 originálními fotografiemi a dodaným půdorysem.
+18 návrhů ve 3 stylech, 29 klasicky upravených fotografií, originály a půdorysy s posuvným porovnáním.
 
-Všechny vizualizace jsou označené jako návrh. Nejde o prováděcí dokumentaci ani přesné zaměření.
+Vizualizace jsou návrhy, nikoli prováděcí dokumentace.
