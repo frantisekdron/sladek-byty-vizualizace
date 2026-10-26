@@ -1,0 +1,463 @@
+{
+  "source": "podklady/vykresy/pudorysy.dwg",
+  "sha256": "f53f6e5e4151d7b5199d5f5a053924fb3af3eb363f502b0327051262f0e295e7",
+  "insunits": 4,
+  "units": "mm",
+  "method": "Direct original DWG model-space entities; original PDF checked independently after accounting for page rotation 270 degrees",
+  "measurements": {
+    "room_envelope_mm": [
+      7100.17,
+      4446.0
+    ],
+    "bathroom_envelope_mm": [
+      2335.0,
+      1544.1
+    ],
+    "bathroom_net_polygon_m2": 3.44,
+    "shower_mm": [
+      800,
+      800
+    ],
+    "washbasin_envelope_mm": [
+      497.11,
+      366.01
+    ],
+    "cabinet_symbol_mm": [
+      600,
+      600
+    ],
+    "unlabelled_symbol_mm": [
+      400,
+      290
+    ],
+    "table_mm": [
+      800,
+      1470.68
+    ],
+    "kitchen_depth_mm": 600,
+    "kitchen_L_outer_arms_mm": [
+      1803.16,
+      2788.17
+    ],
+    "chair_diameter_in_drawing_mm": 500,
+    "drawn_chair_to_sofa_gap_mm": 692.5,
+    "drawn_chair_to_kitchen_gap_mm": 1328.15,
+    "table_to_sofa_gap_mm": 1022.5,
+    "table_to_kitchen_gap_mm": 1677.28,
+    "round_table_1200_assumed_seat_depth_600_sofa_gap_mm": 222.5,
+    "round_table_1200_assumed_seat_depth_600_kitchen_gap_mm": 877.28
+  },
+  "bathroom_polygon_dwg_mm": [
+    [
+      14284.049969228494,
+      25452.619193578397
+    ],
+    [
+      16619.050314611915,
+      25452.619193578397
+    ],
+    [
+      16619.050314611915,
+      23908.522002460933
+    ],
+    [
+      14842.427702859412,
+      23908.522002460933
+    ],
+    [
+      14284.049969228494,
+      24517.139150447216
+    ]
+  ],
+  "dwg_to_rotated_pdf": {
+    "scale": [
+      0.023982521884530573,
+      -0.023953242259347682
+    ],
+    "offset": [
+      28.353275557439417,
+      720.0327695478466
+    ],
+    "holdout_checks": [
+      {
+        "handle": "4FB4",
+        "endpoint": "end",
+        "dwg": [
+          16619.050314611915,
+          21006.619193578397
+        ],
+        "pdf": [
+          426.9200134277344,
+          216.92001342773438
+        ],
+        "residual_pdf_points": 0.06,
+        "equivalent_mm": 2.67
+      },
+      {
+        "handle": "4FBC",
+        "endpoint": "start",
+        "dwg": [
+          14169.049982253855,
+          25452.619193578397
+        ],
+        "pdf": [
+          368.1199951171875,
+          110.36001586914062
+        ],
+        "residual_pdf_points": 0.04,
+        "equivalent_mm": 1.79
+      },
+      {
+        "handle": "5003",
+        "endpoint": "end",
+        "dwg": [
+          16019.050925696894,
+          23194.78917099866
+        ],
+        "pdf": [
+          412.52001953125,
+          164.48001098632812
+        ],
+        "residual_pdf_points": 0.04,
+        "equivalent_mm": 1.63
+      },
+      {
+        "handle": "5308",
+        "endpoint": "start",
+        "dwg": [
+          12259.021766381236,
+          23279.62943567465
+        ],
+        "pdf": [
+          322.4000244140625,
+          162.44000244140625
+        ],
+        "residual_pdf_points": 0.05,
+        "equivalent_mm": 2.24
+      },
+      {
+        "handle": "52FF",
+        "endpoint": "start",
+        "dwg": [
+          12519.272470138865,
+          22008.21047945404
+        ],
+        "pdf": [
+          328.6400146484375,
+          192.92001342773438
+        ],
+        "residual_pdf_points": 0.07,
+        "equivalent_mm": 2.92
+      },
+      {
+        "handle": "5366",
+        "endpoint": "end",
+        "dwg": [
+          15084.050250143991,
+          25452.619141903648
+        ],
+        "pdf": [
+          390.08001708984375,
+          110.36001586914062
+        ],
+        "residual_pdf_points": 0.03,
+        "equivalent_mm": 1.12
+      },
+      {
+        "handle": "5372",
+        "endpoint": "start",
+        "dwg": [
+          16013.269541698406,
+          23908.617507614726
+        ],
+        "pdf": [
+          412.3999938964844,
+          147.32000732421875
+        ],
+        "residual_pdf_points": 0.03,
+        "equivalent_mm": 1.05
+      },
+      {
+        "handle": "50DB",
+        "endpoint": "start",
+        "dwg": [
+          14812.941157818495,
+          23794.788587774263
+        ],
+        "pdf": [
+          383.6000061035156,
+          150.08001708984375
+        ],
+        "residual_pdf_points": 0.01,
+        "equivalent_mm": 0.45
+      }
+    ],
+    "other_room_holdout_checks": [
+      {
+        "handle": "4FC3",
+        "endpoint": "start",
+        "residual_pdf_points": 0.08,
+        "equivalent_mm": 3.27
+      },
+      {
+        "handle": "4FC3",
+        "endpoint": "end",
+        "residual_pdf_points": 0.08,
+        "equivalent_mm": 3.22
+      },
+      {
+        "handle": "4FDF",
+        "endpoint": "start",
+        "residual_pdf_points": 0.08,
+        "equivalent_mm": 3.43
+      },
+      {
+        "handle": "5DFC",
+        "endpoint": "start",
+        "residual_pdf_points": 0.01,
+        "equivalent_mm": 0.28
+      },
+      {
+        "handle": "5DFC",
+        "endpoint": "end",
+        "residual_pdf_points": 0.05,
+        "equivalent_mm": 1.96
+      },
+      {
+        "handle": "5E08",
+        "endpoint": "end",
+        "residual_pdf_points": 0.07,
+        "equivalent_mm": 3.01
+      },
+      {
+        "handle": "5E04",
+        "endpoint": "start",
+        "residual_pdf_points": 0.11,
+        "equivalent_mm": 4.48
+      },
+      {
+        "handle": "50F7",
+        "endpoint": "start",
+        "residual_pdf_points": 0.12,
+        "equivalent_mm": 4.91
+      },
+      {
+        "handle": "5109",
+        "endpoint": "start",
+        "residual_pdf_points": 0.06,
+        "equivalent_mm": 2.6
+      },
+      {
+        "handle": "5120",
+        "endpoint": "start",
+        "residual_pdf_points": 0.08,
+        "equivalent_mm": 3.31
+      },
+      {
+        "handle": "5103",
+        "endpoint": "end",
+        "residual_pdf_points": 0.15,
+        "equivalent_mm": 6.25
+      },
+      {
+        "handle": "5104",
+        "endpoint": "start",
+        "residual_pdf_points": 0.14,
+        "equivalent_mm": 5.82
+      }
+    ]
+  },
+  "status": "18 images reviewed: 9 fail exact layout/equipment; 6 bedrooms conditional; 3 existing bathroom images photo-supported but not dimensionally certified",
+  "limits": [
+    "CAD geometry is not a site survey.",
+    "Furniture symbols are schematic, actual products unknown.",
+    "Generated perspective images do not provide reliable furniture dimensions.",
+    "1200 mm round table and 600 mm occupied chair depth are a declared test case, not measurements from the visualization.",
+    "400x290 mm symbol has no unambiguous legend; do not infer bidet.",
+    "Bed/desk clearance scenarios assume stated footprints; they do not measure the generated furniture or certify building-code compliance."
+  ],
+  "other_rooms_measurements": {
+    "b1_bedroom_envelope_mm": [
+      3350.0,
+      4450.0
+    ],
+    "b1_balcony_opening_mm": 1800.0,
+    "b1_bed1800_desk600_remaining_total_mm": 950.0,
+    "b1_bed1600_desk600_remaining_total_mm": 1150.0,
+    "b2_living_envelope_mm": [
+      4100.0,
+      4076.0
+    ],
+    "b2_kitchen_length_depth_mm": [
+      2910.0,
+      600
+    ],
+    "b2_dining_table_envelope_mm": [
+      1374.24,
+      700
+    ],
+    "b2_chair_to_kitchen_gap_mm": 560.72,
+    "b2_bathroom_envelope_mm": [
+      2810.0,
+      2020.0
+    ],
+    "b2_bathroom_gross_inner_rectangle_m2": 5.68,
+    "b2_bath_symbol_envelope_mm": [
+      666,
+      1503
+    ],
+    "b2_bedroom_main_rectangle_mm": [
+      4100.0,
+      3479.26
+    ],
+    "b2_bedroom_lower_recess_extra_width_mm": 200.0,
+    "b2_bed1800_side_space_total_mm": 1679.26,
+    "b2_bed2000_length_foot_space_mm": 2100.0
+  },
+  "per_image_audit": [
+    {
+      "scene": "b1-obyvak",
+      "style": "puvodni",
+      "path": "vizualizace/byt-1-obyvak-v1.png",
+      "sha256": "03bba9c529171f6602ce5804d2762b2c9a374ce7b5d42e731ff4fd07f2cc75a7",
+      "status": "NEVYHOVUJE",
+      "finding": "Kuchyň do L změněna na jinou sestavu, zkosený vstup koupelny nahrazen pravoúhlým objemem, stůl přemístěn do středu a změněn na kulatý."
+    },
+    {
+      "scene": "b1-obyvak",
+      "style": "japandi",
+      "path": "styly/japandi/b1-obyvak.png",
+      "sha256": "6fb7cd24faa069b2421cef3d7d236e949798248f33188bed3348fadc5bd4fc46",
+      "status": "NEVYHOVUJE",
+      "finding": "Kuchyň do L změněna na jinou sestavu, zkosený vstup koupelny nahrazen pravoúhlým objemem, stůl přemístěn do středu a změněn na kulatý."
+    },
+    {
+      "scene": "b1-obyvak",
+      "style": "mestsky",
+      "path": "styly/mestsky/b1-obyvak.png",
+      "sha256": "58163aad6b8aff2b0d79df17a571e46ccbb509a67d35fa847f319c8478b5f238",
+      "status": "NEVYHOVUJE",
+      "finding": "Kuchyň do L změněna na jinou sestavu, zkosený vstup koupelny nahrazen pravoúhlým objemem, stůl přemístěn do středu a změněn na kulatý."
+    },
+    {
+      "scene": "b1-loznice",
+      "style": "puvodni",
+      "path": "vizualizace/byt-1-loznice-v2-svetla.png",
+      "sha256": "b1eca1c67c9759771e409f8fd6b3f8f9b7d17d0a2452c9c755ed41f3721e6a46",
+      "status": "PODMÍNĚNĚ / ROZMĚRY NÁBYTKU NEOVĚŘENÉ",
+      "finding": "Hlavní poloha balkonového otvoru je podpořená fotografií. Půdorys neurčuje postel ani pracovní stůl. Při posteli 1800 a stole 600 zbývá jen 950 mm na oba boční odstupy dohromady. Nutný přesný půdorys nábytku a ověření otvírání balkonu."
+    },
+    {
+      "scene": "b1-loznice",
+      "style": "japandi",
+      "path": "styly/japandi/b1-loznice.png",
+      "sha256": "243a93f35bb27b94084c902cf07cbc9863b85c91daceb40aee18f0335e0db446",
+      "status": "PODMÍNĚNĚ / ROZMĚRY NÁBYTKU NEOVĚŘENÉ",
+      "finding": "Hlavní poloha balkonového otvoru je podpořená fotografií. Půdorys neurčuje postel ani pracovní stůl. Při posteli 1800 a stole 600 zbývá jen 950 mm na oba boční odstupy dohromady. Nutný přesný půdorys nábytku a ověření otvírání balkonu."
+    },
+    {
+      "scene": "b1-loznice",
+      "style": "mestsky",
+      "path": "styly/mestsky/b1-loznice.png",
+      "sha256": "c6ef1c4ec1fee052aba662dd00b02099f00a814d26528663024cfabe797a3b17",
+      "status": "PODMÍNĚNĚ / ROZMĚRY NÁBYTKU NEOVĚŘENÉ",
+      "finding": "Hlavní poloha balkonového otvoru je podpořená fotografií. Půdorys neurčuje postel ani pracovní stůl. Při posteli 1800 a stole 600 zbývá jen 950 mm na oba boční odstupy dohromady. Nutný přesný půdorys nábytku a ověření otvírání balkonu."
+    },
+    {
+      "scene": "b1-koupelna",
+      "style": "puvodni",
+      "path": "vizualizace/byt-1-koupelna-v1.png",
+      "sha256": "daf4905f1532be50316ac81426c269c25b6af8fb71e4c7d8714e34b05f3e63cc",
+      "status": "NEVYHOVUJE",
+      "finding": "Jiný půdorys a pořadí sanity. Ve výkresu sprcha–umyvadlo–WC, ve vizualizaci sprcha–WC–bidet a umyvadlo jinde. Bidet není doložen."
+    },
+    {
+      "scene": "b1-koupelna",
+      "style": "japandi",
+      "path": "styly/japandi/b1-koupelna.png",
+      "sha256": "354a19bdf052bdbdec9dbac66042ce6634552a25ec7fb745d4640ae0d8a09bcb",
+      "status": "NEVYHOVUJE",
+      "finding": "Jiný půdorys a pořadí sanity. Ve výkresu sprcha–umyvadlo–WC, ve vizualizaci sprcha–WC–bidet a umyvadlo jinde. Bidet není doložen."
+    },
+    {
+      "scene": "b1-koupelna",
+      "style": "mestsky",
+      "path": "styly/mestsky/b1-koupelna.png",
+      "sha256": "f90b9d0240e7b7684e1765be19fbab8a0ce23c32421270822fc502a37ecbfc8d",
+      "status": "NEVYHOVUJE",
+      "finding": "Jiný půdorys a pořadí sanity. Ve výkresu sprcha–umyvadlo–WC, ve vizualizaci sprcha–WC–bidet a umyvadlo jinde. Bidet není doložen."
+    },
+    {
+      "scene": "b2-obyvak",
+      "style": "puvodni",
+      "path": "vizualizace/byt-2-obyvak-v1.png",
+      "sha256": "4e785a2d86dae15b2f5de7ad18dc1acd2e19fc6a934105ace9210d948da6b693",
+      "status": "NEVYHOVUJE VYBAVENÍ KUCHYNĚ",
+      "finding": "Základní zóny kuchyně, stolu a sedačky odpovídají stranám půdorysu při otočení pohledu. Vysoký modul je ale ve všech třech návrzích na opačném konci linky než ve výkresu: správně u vstupních dveří. Konferenční stolek a proporce jídelního stolu také nejsou shodné s nakreslenými obrysy."
+    },
+    {
+      "scene": "b2-obyvak",
+      "style": "japandi",
+      "path": "styly/japandi/b2-obyvak.png",
+      "sha256": "4595df0ac520ff68c4559f07a410e0f3267317687636405bdc293a1f7623f0b8",
+      "status": "NEVYHOVUJE VYBAVENÍ KUCHYNĚ",
+      "finding": "Základní zóny kuchyně, stolu a sedačky odpovídají stranám půdorysu při otočení pohledu. Vysoký modul je ale ve všech třech návrzích na opačném konci linky než ve výkresu: správně u vstupních dveří. Konferenční stolek a proporce jídelního stolu také nejsou shodné s nakreslenými obrysy."
+    },
+    {
+      "scene": "b2-obyvak",
+      "style": "mestsky",
+      "path": "styly/mestsky/b2-obyvak.png",
+      "sha256": "7be56c9cac649de49fd9ce5028d13b6950a62672b8f019f8bdbc2be567b175f9",
+      "status": "NEVYHOVUJE VYBAVENÍ KUCHYNĚ",
+      "finding": "Základní zóny kuchyně, stolu a sedačky odpovídají stranám půdorysu při otočení pohledu. Vysoký modul je ale ve všech třech návrzích na opačném konci linky než ve výkresu: správně u vstupních dveří. Konferenční stolek a proporce jídelního stolu také nejsou shodné s nakreslenými obrysy."
+    },
+    {
+      "scene": "b2-loznice",
+      "style": "puvodni",
+      "path": "vizualizace/byt-2-loznice-v2-svetla.png",
+      "sha256": "5d0eb8b561e09b6c2707d0805933b75af93b5db775f1420850922433f2600bb5",
+      "status": "PODMÍNĚNĚ / ROZMĚRY NÁBYTKU NEOVĚŘENÉ",
+      "finding": "Poloha okna a směr čela postele jsou slučitelné s fotografií a prostorem. Půdorys neobsahuje nábytek. Nutno zachovat 200mm výklenek; zakrytou geometrii a skutečné rozměry postele nelze z generace dokázat."
+    },
+    {
+      "scene": "b2-loznice",
+      "style": "japandi",
+      "path": "styly/japandi/b2-loznice.png",
+      "sha256": "0d4fecd0149832e82bf62e6bbb6f06ddc34e5af2fda439ae9c32838f5afb3390",
+      "status": "PODMÍNĚNĚ / ROZMĚRY NÁBYTKU NEOVĚŘENÉ",
+      "finding": "Poloha okna a směr čela postele jsou slučitelné s fotografií a prostorem. Půdorys neobsahuje nábytek. Nutno zachovat 200mm výklenek; zakrytou geometrii a skutečné rozměry postele nelze z generace dokázat."
+    },
+    {
+      "scene": "b2-loznice",
+      "style": "mestsky",
+      "path": "styly/mestsky/b2-loznice.png",
+      "sha256": "1d40467c59c9a6d92e9513db8fea36377bc253430f23e83135d4eb87fc07853a",
+      "status": "PODMÍNĚNĚ / ROZMĚRY NÁBYTKU NEOVĚŘENÉ",
+      "finding": "Poloha okna a směr čela postele jsou slučitelné s fotografií a prostorem. Půdorys neobsahuje nábytek. Nutno zachovat 200mm výklenek; zakrytou geometrii a skutečné rozměry postele nelze z generace dokázat."
+    },
+    {
+      "scene": "b2-koupelna",
+      "style": "puvodni",
+      "path": "vizualizace-rovne/b2-koupelna-puvodni.png",
+      "sha256": "2b79925af9250a0b934fce0e55f802966488fd57bd0291f5168408c96bee5fc0",
+      "status": "VIZUÁLNĚ PODPOŘENO FOTOGRAFIÍ / NENÍ PŘESNÝ MODEL",
+      "finding": "Vana, umyvadlová skříňka, zástěna a dveře mají ve všech variantách základní vztah odpovídající fotografii. Půdorys má WC samostatně a návrhy do koupelny další WC nepřidávají. Shoda všech rozměrů/zakrytých prvků z perspektivního obrázku není doložena."
+    },
+    {
+      "scene": "b2-koupelna",
+      "style": "japandi",
+      "path": "vizualizace-rovne/b2-koupelna-japandi.png",
+      "sha256": "9e9039789b4df61117634af9510cda227ffb219c7d7687654ec43da297bad7ce",
+      "status": "VIZUÁLNĚ PODPOŘENO FOTOGRAFIÍ / NENÍ PŘESNÝ MODEL",
+      "finding": "Vana, umyvadlová skříňka, zástěna a dveře mají ve všech variantách základní vztah odpovídající fotografii. Půdorys má WC samostatně a návrhy do koupelny další WC nepřidávají. Shoda všech rozměrů/zakrytých prvků z perspektivního obrázku není doložena."
+    },
+    {
+      "scene": "b2-koupelna",
+      "style": "mestsky",
+      "path": "vizualizace-rovne/b2-koupelna-mestsky.png",
+      "sha256": "f38593db630b5e100183442410f58943d402fc39153532d6cc502dfeb691536b",
+      "status": "VIZUÁLNĚ PODPOŘENO FOTOGRAFIÍ / NENÍ PŘESNÝ MODEL",
+      "finding": "Vana, umyvadlová skříňka, zástěna a dveře mají ve všech variantách základní vztah odpovídající fotografii. Půdorys má WC samostatně a návrhy do koupelny další WC nepřidávají. Shoda všech rozměrů/zakrytých prvků z perspektivního obrázku není doložena."
+    }
+  ]
+}
