@@ -1,14 +1,14 @@
 {
-  "revision": "dwg-v2-desk-rotation-2026-10-27",
+  "revision": "dwg-v4-photo-bedroom-and-living-reverse-2026-10-27",
   "status": "reviewed",
   "items": {
     "b1-obyvak": {
       "variants": {
-        "puvodni": "vizualizace-dwg-v2/b1-obyvak-puvodni.png",
-        "japandi": "vizualizace-dwg-v2/b1-obyvak-japandi.png",
-        "mestsky": "vizualizace-dwg-v2/b1-obyvak-mestsky.png"
+        "puvodni": "vizualizace-dwg-v4/b1-obyvak-puvodni.png",
+        "japandi": "vizualizace-dwg-v4/b1-obyvak-japandi.png",
+        "mestsky": "vizualizace-dwg-v4/b1-obyvak-mestsky.png"
       },
-      "note": "Opraveno: kuchyň do L, vstup do koupelny ve zkosení, stůl přisazený ke stěně. Rozměry a obrysy jsou doložené samostatným půdorysem; perspektivní obraz je AI vizualizace návrhu. Připomínka 27. 10.: klient uvádí 900 mm a 45°. Extrahovaný DWG/model má úsek 956 mm a úhel 47,5°; přesné stavební provedení tohoto rozdílu je třeba potvrdit. Starší render v zaslané zprávě již není aktuální.",
+      "note": "Opraveno: kuchyň do L, vstup do koupelny ve zkosení, stůl přisazený ke stěně. Rozměry a obrysy jsou doložené samostatným půdorysem; perspektivní obraz je AI vizualizace návrhu. Připomínka 27. 10.: klient uvádí 900 mm a 45°. Extrahovaný DWG/model má úsek 956 mm a úhel 47,5°; přesné stavební provedení tohoto rozdílu je třeba potvrdit. Starší render v zaslané zprávě již není aktuální. Doplněný obraz na kolmé stěně koupelny vedle okna ve všech třech stylech.",
       "plan": "model-podle-dwg/plany/b1-obyvak.svg",
       "files": {
         "puvodni": {
@@ -16,32 +16,32 @@
             1448,
             1086
           ],
-          "sha256": "04f5109515c0b22b9cb7fb8f9d592a2eafb0624357846ebbcb8994610d2014bf"
+          "sha256": "6b3bb0ecba0f32ffd4d2231b6a50a96f826a77d4bd21ac4288b466518a8c78de"
         },
         "japandi": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "dac396d7027c189cc1e2b160d2d1795cca733138a0593640edd3708fd0573bd4"
+          "sha256": "4590ce2ade69b68794d39805009a794213535fe580c569c963f491eccdc100b6"
         },
         "mestsky": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "76157ac0f38fac3abb869017bbb499971dd43d202b763a4238ff589700688b12"
+          "sha256": "4b0c5ab8ba524f1d5b22167a7efeae84e50ec588bdb9c89a00862633d4879424"
         }
       },
       "source": "DWG-derived Blender conditioning + native image generation"
     },
     "b1-loznice": {
       "variants": {
-        "puvodni": "vizualizace-dwg-v3/b1-loznice-puvodni.png",
-        "japandi": "vizualizace-dwg-v3/b1-loznice-japandi.png",
-        "mestsky": "vizualizace-dwg-v3/b1-loznice-mestsky.png"
+        "puvodni": "vizualizace-dwg-v4/b1-loznice-puvodni.png",
+        "japandi": "vizualizace-dwg-v4/b1-loznice-japandi.png",
+        "mestsky": "vizualizace-dwg-v4/b1-loznice-mestsky.png"
       },
-      "note": "Pracovní stůl otočený o 90°: delší strana 130 cm vede podél západní stěny rovnoběžně s francouzským oknem, vpravo při pohledu na okno. V tomto záběru od okna je pracovní místo za kamerou. Čelo postele zůstává na východní stěně, vestavěná skříň na jižní. Rám 160 × 210 cm, skříň 300 × 60 cm, stůl 130 × 60 cm.",
+      "note": "Oprava podle skutečné fotografie 04: francouzská okna vpravo zůstávají zachovaná; rovné pravoúhlé stěny bez přidaného zkosení. Skříň je na zadní jižní stěně, čelo postele na levé východní stěně, nohy směřují k oknům. Pracovní stůl 130 × 60 cm zůstává podél západní stěny severně od okna mimo tento pohled. Perspektiva je srovnaná, posuvník není překrytí totožných pixelů.",
       "plan": "model-podle-dwg/plany/b1-loznice.svg",
       "files": {
         "puvodni": {
@@ -49,24 +49,24 @@
             1448,
             1086
           ],
-          "sha256": "de55f6cf0ae86f80a3210d6d084b9a9d2c1a9765f8ec40eed77bc3b91a94d245"
+          "sha256": "8563aae45f485ef82e814d614bbd93ecd76c98251bff0b508a7da9ffe8886d65"
         },
         "japandi": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "a503496a57b962a5e41ec56edacb1b7d1202fde068e6bd05726c79f303ad0586"
+          "sha256": "fd71faf294588fdaaa9fd33c9353c6af20221a4e73d4272c9f03e1e87f3b9de5"
         },
         "mestsky": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "55cf4e5277e44b29bee1a6f04f695fc127781db101f441e1ff2c4231af169886"
+          "sha256": "631e4878d421af30d7717c6366f98a14f80cc1355745c9d438f4dbf740b76bc9"
         }
       },
-      "source": "DWG-derived Blender conditioning + native image generation"
+      "source": "Photo04-based edit; obsolete reverse-camera bedroom variants rejected."
     },
     "b1-koupelna": {
       "variants": {
@@ -199,9 +199,51 @@
         }
       },
       "source": "photo-based retained corrected views"
+    },
+    "b1-obyvak-vstup": {
+      "variants": {
+        "puvodni": "vizualizace-dwg-v4/b1-obyvak-vstup-puvodni.png",
+        "japandi": "vizualizace-dwg-v4/b1-obyvak-vstup-japandi.png",
+        "mestsky": "vizualizace-dwg-v4/b1-obyvak-vstup-mestsky.png"
+      },
+      "files": {
+        "puvodni": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "a04d06eb7f7775f0e9909e60d7ecf77a8b5e8d36bf6b870fb98891435ad2035d"
+        },
+        "japandi": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "580db64ba8f43287fcd23608547adaa70e7f5809195111523c9a9abbf131a241"
+        },
+        "mestsky": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "1a2384333bd17c4fadc346691e17f6b9a5cfbc5c31c5f62339aeeb2eab19af12"
+        }
+      },
+      "plan": "model-podle-dwg/plany/b1-obyvak.svg",
+      "source": "Additional perspective from doorway; photo01 + dimensioned model + approved style reference",
+      "note": "Doplňkový úhlopříčný pohled od vstupu přes kraj kuchyně směrem k velkému oknu. Stejné rozmístění: stůl u levé stěny, sedačka u velkého okna, TV na protější stěně. Originální fotografie 01 dokládá okna a původní stav; kamera návrhu je posunutá ke vstupu, nejde o přesné pixelové překrytí."
     }
   },
-  "download_url": "https://github.com/frantisekdron/sladek-byty-vizualizace/releases/download/mab-dwg-v3-2026-10-27/Sladek-komplet-pro-MAB-v3.zip",
-  "scope": "18 design images, 6 dimensioned furniture plans, original photographs preserved. 15 newly generated images; 3 existing photograph-based bathroom views retained.",
-  "verification_limits": "Numeric furniture footprints/clearances belong to the dimensioned model, not guaranteed millimetre geometry in AI images. Construction details, hinges, actual product tolerances and unknown400x290symbol require confirmation before purchasing/building."
+  "download_url": "https://github.com/frantisekdron/sladek-byty-vizualizace/releases/download/mab-dwg-v4-2026-10-27/Sladek-komplet-pro-MAB-v4.zip",
+  "scope": "21 visualization images in 7 views, 3 styles; 6 dimensioned room plans. Bedroom1 rebuilt from source photo04. Extra living1 reverse view and wall art.",
+  "verification_limits": "Numeric furniture footprints/clearances belong to the dimensioned model, not guaranteed millimetre geometry in AI images. Construction details, hinges, actual product tolerances and unknown400x290symbol require confirmation before purchasing/building.",
+  "extra_views": [
+    {
+      "id": "b1-obyvak-vstup",
+      "title": "Byt 1 · od vstupu k velkému oknu",
+      "before": "podklady/fotky/byt-1/obyvak-kuchyn/01.jpeg",
+      "after": "vizualizace-dwg-v4/b1-obyvak-vstup-puvodni.png",
+      "note": "Doplňkový úhlopříčný pohled od vstupu přes kraj kuchyně směrem k velkému oknu. Stejné rozmístění: stůl u levé stěny, sedačka u velkého okna, TV na protější stěně. Originální fotografie 01 dokládá okna a původní stav; kamera návrhu je posunutá ke vstupu, nejde o přesné pixelové překrytí."
+    }
+  ]
 }

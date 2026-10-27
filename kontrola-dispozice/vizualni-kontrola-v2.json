@@ -1,143 +1,166 @@
 {
-  "scope": "18 exported room/style PNGs at outputs/sladek-vizualizace/vizualizace-dwg-v2; visual check against model.json, Blender references and source b2 bath photograph",
+  "scope": "Current manifest assets; 21 room/style images after bedroom correction and added reverse living view.",
   "overall": "pass_visual",
   "checks": {
     "b1_living_three": "pass: identical room shell, kitchen/fridge placement and D dining table in all styles; flat short end against south/right wall, rounded free end toward room, four chairs along sides",
     "b2_living_three": "pass: kitchen south with fridge beside cabinet run, dining/TV on east side, sofa on west side; geometry and floor/wall pattern stable across styles",
     "b2_bedroom_three": "pass: west headboard, south window left, east wardrobe off camera; bed and wall/window layout stable across styles",
-    "b1_bedroom_three": "Revised desk rotation: headboard east, south wardrobe unchanged. West-wall desk behind camera; its layout is documented in revised plan. Images edited to remove obsolete north-wall desk.",
+    "b1_bedroom_three": "Rebuilt from actual photo04: French doors on right with exterior view retained, rear south wardrobe, left east headboard, no added chamfer/sloping wall. Desk remains offscreen per floor plan. Prior v2/v3 bedroom visual approval is withdrawn and superseded.",
     "b1_bathroom_three": "pass visually: shower NW, basin north-middle, WC NE, washer provision at right; no invented bidet at the 400x290 reserve symbol",
-    "b2_bathroom_three": "pass photo-supported fixture arrangement: vanity left, tub forward, open room and fixed tiles/fixtures retained"
+    "b2_bathroom_three": "pass photo-supported fixture arrangement: vanity left, tub forward, open room and fixed tiles/fixtures retained",
+    "b1_living_art": "One artwork on perpendicular bathroom wall beside window, all three styles.",
+    "b1_living_reverse": "Supplementary entrance-to-window view based on room photo, model and approved palette; visual relationship check only, not metric calibration."
   },
   "lighting_verticals": "Fixtures appear lit in all 18 images and dominant wall/door/cabinet verticals read straight. This is visual inspection, not lens calibration.",
   "surface_consistency": "Within each room the floor and wall structure/texture are visually stable across the three styles; furniture textiles, wood cabinetry, art and lamps vary by palette as intended.",
-  "limits": "Perspective images cannot establish exact millimetre dimensions or prove every hidden furniture clearance. Geometry conclusion is visual and plan-based, not a measured survey.",
+  "limits": "Perspective images cannot establish exact millimetre dimensions or prove every hidden furniture clearance. Geometry conclusion is visual and plan-based, not a measured survey. The old bedroom images and their prior pass are superseded because they did not support faithful same-view comparison.",
   "files": {
-    "b1-koupelna-japandi.png": {
+    "vizualizace-dwg-v4/b1-obyvak-puvodni.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b1-koupelna-mestsky.png": {
+    "vizualizace-dwg-v4/b1-obyvak-japandi.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b1-koupelna-puvodni.png": {
+    "vizualizace-dwg-v4/b1-obyvak-mestsky.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b1-loznice-japandi.png": {
+    "vizualizace-dwg-v4/b1-loznice-puvodni.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b1-loznice-mestsky.png": {
+    "vizualizace-dwg-v4/b1-loznice-japandi.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b1-loznice-puvodni.png": {
+    "vizualizace-dwg-v4/b1-loznice-mestsky.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b1-obyvak-japandi.png": {
+    "vizualizace-dwg-v2/b1-koupelna-puvodni.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b1-obyvak-mestsky.png": {
+    "vizualizace-dwg-v2/b1-koupelna-japandi.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b1-obyvak-puvodni.png": {
+    "vizualizace-dwg-v2/b1-koupelna-mestsky.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b2-koupelna-japandi.png": {
+    "vizualizace-dwg-v2/b2-obyvak-puvodni.png": {
+      "status": "visual_review_only",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    "vizualizace-dwg-v2/b2-obyvak-japandi.png": {
+      "status": "visual_review_only",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    "vizualizace-dwg-v2/b2-obyvak-mestsky.png": {
+      "status": "visual_review_only",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    "vizualizace-dwg-v2/b2-loznice-puvodni.png": {
+      "status": "visual_review_only",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    "vizualizace-dwg-v2/b2-loznice-japandi.png": {
+      "status": "visual_review_only",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    "vizualizace-dwg-v2/b2-loznice-mestsky.png": {
+      "status": "visual_review_only",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    "vizualizace-dwg-v2/b2-koupelna-puvodni.png": {
+      "status": "visual_review_only",
       "size_px": [
         1300,
         954
-      ],
-      "status": "pass_retained_source_resolution"
+      ]
     },
-    "b2-koupelna-mestsky.png": {
+    "vizualizace-dwg-v2/b2-koupelna-japandi.png": {
+      "status": "visual_review_only",
+      "size_px": [
+        1300,
+        954
+      ]
+    },
+    "vizualizace-dwg-v2/b2-koupelna-mestsky.png": {
+      "status": "visual_review_only",
       "size_px": [
         1366,
         1004
-      ],
-      "status": "pass_retained_source_resolution"
+      ]
     },
-    "b2-koupelna-puvodni.png": {
-      "size_px": [
-        1300,
-        954
-      ],
-      "status": "pass_retained_source_resolution"
-    },
-    "b2-loznice-japandi.png": {
+    "vizualizace-dwg-v4/b1-obyvak-vstup-puvodni.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b2-loznice-mestsky.png": {
+    "vizualizace-dwg-v4/b1-obyvak-vstup-japandi.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
+      ]
     },
-    "b2-loznice-puvodni.png": {
+    "vizualizace-dwg-v4/b1-obyvak-vstup-mestsky.png": {
+      "status": "visual_review_only",
       "size_px": [
         1448,
         1086
-      ],
-      "status": "pass_visual"
-    },
-    "b2-obyvak-japandi.png": {
-      "size_px": [
-        1448,
-        1086
-      ],
-      "status": "pass_visual"
-    },
-    "b2-obyvak-mestsky.png": {
-      "size_px": [
-        1448,
-        1086
-      ],
-      "status": "pass_visual"
-    },
-    "b2-obyvak-puvodni.png": {
-      "size_px": [
-        1448,
-        1086
-      ],
-      "status": "pass_visual"
+      ]
     }
   },
   "resolution_note": "The three approved photo-based bathroom 2 images retain cropped source pixel dimensions: 1300x954, 1300x954 and 1366x1004. No minimum resolution was agreed. The gallery uses object-fit:contain; preserve these source-based outputs without upscaling or regeneration. The other 15 images are 1448x1086."
