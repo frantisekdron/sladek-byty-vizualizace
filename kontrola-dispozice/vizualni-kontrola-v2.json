@@ -1,5 +1,5 @@
 {
-  "scope": "21 current images, including 9 v5 replacements following five client comments.",
+  "scope": "21 current images, including 2 v6 pastel kitchen replacements.",
   "overall": "pass_visual",
   "checks": {
     "b1_living_three": "pass: identical room shell, kitchen/fridge placement and D dining table in all styles; flat short end against south/right wall, rounded free end toward room, four chairs along sides",
@@ -9,13 +9,14 @@
     "b1_bathroom_three": "Visually checked: curved quadrant shower and thin transparent WC divider in all three styles. Exact 800 mm size belongs to plan, not pixel image. Glass height remains proposed.",
     "b2_bathroom_three": "pass photo-supported fixture arrangement: vanity left, tub forward, open room and fixed tiles/fixtures retained",
     "b1_living_art": "One artwork on perpendicular bathroom wall beside window, all three styles.",
-    "b1_living_reverse": "Supplementary entrance-to-window view based on room photo, model and approved palette; visual relationship check only, not metric calibration."
+    "b1_living_reverse": "Supplementary entrance-to-window view based on room photo, model and approved palette; visual relationship check only, not metric calibration.",
+    "pastel_kitchen": "Two current-style views visually reviewed: sage upper and lower kitchen fronts; original camera, furniture layout and surrounding material palette retained."
   },
   "lighting_verticals": "Fixtures appear lit in all 21 images and dominant wall/door/cabinet verticals read straight. This is visual inspection, not lens calibration.",
   "surface_consistency": "Within each room the floor and wall structure/texture are visually stable across the three styles; furniture textiles, wood cabinetry, art and lamps vary by palette as intended.",
   "limits": "Perspective images cannot establish exact millimetre dimensions or prove every hidden furniture clearance. Geometry conclusion is visual and plan-based, not a measured survey. The old bedroom images and their prior pass are superseded because they did not support faithful same-view comparison.",
   "files": {
-    "vizualizace-dwg-v4/b1-obyvak-puvodni.png": {
+    "vizualizace-dwg-v6/b1-obyvak-puvodni.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
@@ -141,7 +142,7 @@
         1004
       ]
     },
-    "vizualizace-dwg-v4/b1-obyvak-vstup-puvodni.png": {
+    "vizualizace-dwg-v6/b1-obyvak-vstup-puvodni.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
@@ -184,6 +185,14 @@
     {
       "scene": "b2-koupelna",
       "result": "Komentář „OK“: zachované stávající tři varianty."
+    },
+    {
+      "scene": "b1-obyvak",
+      "result": "Poslední požadavek: jemná pastelová šalvějová na horních i spodních skříňkách, varianta Současný útulný, oba pohledy."
+    },
+    {
+      "scene": "b1-loznice",
+      "result": "Nově potvrzené OK: ložnice 1 městský styl, koupelna 1 současný styl, obývák 2 a ložnice 2 městský styl, koupelna 2 současný styl. Tyto konkrétní varianty ponechané."
     }
   ]
 }

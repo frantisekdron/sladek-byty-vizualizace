@@ -1,14 +1,14 @@
 {
-  "revision": "dwg-v5-client-comments-2026-10-27",
+  "revision": "dwg-v6-pastel-kitchen-2026-10-27",
   "status": "reviewed",
   "items": {
     "b1-obyvak": {
       "variants": {
-        "puvodni": "vizualizace-dwg-v4/b1-obyvak-puvodni.png",
+        "puvodni": "vizualizace-dwg-v6/b1-obyvak-puvodni.png",
         "japandi": "vizualizace-dwg-v4/b1-obyvak-japandi.png",
         "mestsky": "vizualizace-dwg-v4/b1-obyvak-mestsky.png"
       },
-      "note": "Opraveno: kuchyň do L, vstup do koupelny ve zkosení, stůl přisazený ke stěně. Rozměry a obrysy jsou doložené samostatným půdorysem; perspektivní obraz je AI vizualizace návrhu. Připomínka 27. 10.: klient uvádí 900 mm a 45°. Extrahovaný DWG/model má úsek 956 mm a úhel 47,5°; přesné stavební provedení tohoto rozdílu je třeba potvrdit. Starší render v zaslané zprávě již není aktuální. Doplněný obraz na kolmé stěně koupelny vedle okna ve všech třech stylech.",
+      "note": "Opraveno: kuchyň do L, vstup do koupelny ve zkosení, stůl přisazený ke stěně. Rozměry a obrysy jsou doložené samostatným půdorysem; perspektivní obraz je AI vizualizace návrhu. Připomínka 27. 10.: klient uvádí 900 mm a 45°. Extrahovaný DWG/model má úsek 956 mm a úhel 47,5°; přesné stavební provedení tohoto rozdílu je třeba potvrdit. Starší render v zaslané zprávě již není aktuální. Doplněný obraz na kolmé stěně koupelny vedle okna ve všech třech stylech. Poslední připomínka: ve variantě Současný útulný mají horní i spodní kuchyňské skříňky jednotnou jemnou šalvějovou pastelovou barvu, v obou pohledech.",
       "plan": "model-podle-dwg/plany/b1-obyvak.svg",
       "files": {
         "puvodni": {
@@ -16,7 +16,7 @@
             1448,
             1086
           ],
-          "sha256": "6b3bb0ecba0f32ffd4d2231b6a50a96f826a77d4bd21ac4288b466518a8c78de"
+          "sha256": "034a392629de29e1d8b55d62d1f1f8547e3a3a41a2fa368d096506ba44edd6eb"
         },
         "japandi": {
           "size": [
@@ -203,7 +203,7 @@
     },
     "b1-obyvak-vstup": {
       "variants": {
-        "puvodni": "vizualizace-dwg-v4/b1-obyvak-vstup-puvodni.png",
+        "puvodni": "vizualizace-dwg-v6/b1-obyvak-vstup-puvodni.png",
         "japandi": "vizualizace-dwg-v4/b1-obyvak-vstup-japandi.png",
         "mestsky": "vizualizace-dwg-v4/b1-obyvak-vstup-mestsky.png"
       },
@@ -213,7 +213,7 @@
             1448,
             1086
           ],
-          "sha256": "a04d06eb7f7775f0e9909e60d7ecf77a8b5e8d36bf6b870fb98891435ad2035d"
+          "sha256": "589b6664c224573856a7aa547376655ebc2bb59315b999b803c0aba9de5c258a"
         },
         "japandi": {
           "size": [
@@ -232,10 +232,10 @@
       },
       "plan": "model-podle-dwg/plany/b1-obyvak.svg",
       "source": "Additional perspective from doorway; photo01 + dimensioned model + approved style reference",
-      "note": "Doplňkový úhlopříčný pohled od vstupu přes kraj kuchyně směrem k velkému oknu. Stejné rozmístění: stůl u levé stěny, sedačka u velkého okna, TV na protější stěně. Originální fotografie 01 dokládá okna a původní stav; kamera návrhu je posunutá ke vstupu, nejde o přesné pixelové překrytí."
+      "note": "Doplňkový úhlopříčný pohled od vstupu přes kraj kuchyně směrem k velkému oknu. Stejné rozmístění: stůl u levé stěny, sedačka u velkého okna, TV na protější stěně. Originální fotografie 01 dokládá okna a původní stav; kamera návrhu je posunutá ke vstupu, nejde o přesné pixelové překrytí. Poslední připomínka: ve variantě Současný útulný mají horní i spodní kuchyňské skříňky jednotnou jemnou šalvějovou pastelovou barvu, v obou pohledech."
     }
   },
-  "download_url": "https://github.com/frantisekdron/sladek-byty-vizualizace/releases/download/mab-dwg-v5-2026-10-27/Sladek-komplet-pro-MAB-v5.zip",
+  "download_url": "https://github.com/frantisekdron/sladek-byty-vizualizace/releases/download/mab-dwg-v6-2026-10-27/Sladek-komplet-pro-MAB-v6.zip",
   "scope": "21 visualization images in 7 views, 3 styles; 6 dimensioned room plans. Bedroom1 rebuilt from source photo04. Extra living1 reverse view and wall art.",
   "verification_limits": "Numeric furniture footprints/clearances belong to the dimensioned model, not guaranteed millimetre geometry in AI images. Construction details, hinges, actual product tolerances and unknown400x290symbol require confirmation before purchasing/building.",
   "extra_views": [
@@ -267,6 +267,14 @@
     {
       "scene": "b2-koupelna",
       "result": "Komentář „OK“: zachované stávající tři varianty."
+    },
+    {
+      "scene": "b1-obyvak",
+      "result": "Poslední požadavek: jemná pastelová šalvějová na horních i spodních skříňkách, varianta Současný útulný, oba pohledy."
+    },
+    {
+      "scene": "b1-loznice",
+      "result": "Nově potvrzené OK: ložnice 1 městský styl, koupelna 1 současný styl, obývák 2 a ložnice 2 městský styl, koupelna 2 současný styl. Tyto konkrétní varianty ponechané."
     }
   ]
 }
