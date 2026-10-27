@@ -317,7 +317,10 @@
       "id": "b1-koupelna",
       "height": 2.6,
       "height_status": "user-confirmed 2026-10-27",
-      "units": "metres"
+      "units": "metres",
+      "shower_shape": "quadrant_800x800_curved_front",
+      "wc_partition_material": "transparent_glass",
+      "wc_partition_thickness_proposed_m": 0.008
     },
     "b1-loznice": {
       "size": [
@@ -583,7 +586,15 @@
       "id": "b2-obyvak",
       "height": 2.6,
       "height_status": "user-confirmed 2026-10-27",
-      "units": "metres"
+      "units": "metres",
+      "upper_cabinets": {
+        "lower_depth_m": 0.3,
+        "upper_depth_m": 0.6,
+        "horizontal_split_at_fridge_top_m": 2.15,
+        "top_m": 2.6,
+        "microwave": "lower hanging cabinet immediately left of fridge in rendered view",
+        "status": "client requested; split elevation follows proposed fridge envelope, actual product ventilation required"
+      }
     },
     "b2-loznice": {
       "size": [

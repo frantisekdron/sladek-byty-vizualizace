@@ -1,17 +1,17 @@
 {
-  "scope": "Current manifest assets; 21 room/style images after bedroom correction and added reverse living view.",
+  "scope": "21 current images, including 9 v5 replacements following five client comments.",
   "overall": "pass_visual",
   "checks": {
     "b1_living_three": "pass: identical room shell, kitchen/fridge placement and D dining table in all styles; flat short end against south/right wall, rounded free end toward room, four chairs along sides",
-    "b2_living_three": "pass: kitchen south with fridge beside cabinet run, dining/TV on east side, sofa on west side; geometry and floor/wall pattern stable across styles",
-    "b2_bedroom_three": "pass: west headboard, south window left, east wardrobe off camera; bed and wall/window layout stable across styles",
+    "b2_living_three": "Visually checked: recessed lower hanging row, deeper upper row to ceiling aligned with fridge, microwave immediately left of fridge; same furniture arrangement.",
+    "b2_bedroom_three": "Visually checked: removed aerials and railings in window view; room furniture retained. Exterior retouch disclosed; originals unchanged.",
     "b1_bedroom_three": "Rebuilt from actual photo04: French doors on right with exterior view retained, rear south wardrobe, left east headboard, no added chamfer/sloping wall. Desk remains offscreen per floor plan. Prior v2/v3 bedroom visual approval is withdrawn and superseded.",
-    "b1_bathroom_three": "pass visually: shower NW, basin north-middle, WC NE, washer provision at right; no invented bidet at the 400x290 reserve symbol",
+    "b1_bathroom_three": "Visually checked: curved quadrant shower and thin transparent WC divider in all three styles. Exact 800 mm size belongs to plan, not pixel image. Glass height remains proposed.",
     "b2_bathroom_three": "pass photo-supported fixture arrangement: vanity left, tub forward, open room and fixed tiles/fixtures retained",
     "b1_living_art": "One artwork on perpendicular bathroom wall beside window, all three styles.",
     "b1_living_reverse": "Supplementary entrance-to-window view based on room photo, model and approved palette; visual relationship check only, not metric calibration."
   },
-  "lighting_verticals": "Fixtures appear lit in all 18 images and dominant wall/door/cabinet verticals read straight. This is visual inspection, not lens calibration.",
+  "lighting_verticals": "Fixtures appear lit in all 21 images and dominant wall/door/cabinet verticals read straight. This is visual inspection, not lens calibration.",
   "surface_consistency": "Within each room the floor and wall structure/texture are visually stable across the three styles; furniture textiles, wood cabinetry, art and lamps vary by palette as intended.",
   "limits": "Perspective images cannot establish exact millimetre dimensions or prove every hidden furniture clearance. Geometry conclusion is visual and plan-based, not a measured survey. The old bedroom images and their prior pass are superseded because they did not support faithful same-view comparison.",
   "files": {
@@ -57,63 +57,63 @@
         1086
       ]
     },
-    "vizualizace-dwg-v2/b1-koupelna-puvodni.png": {
+    "vizualizace-dwg-v5/b1-koupelna-puvodni.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
         1086
       ]
     },
-    "vizualizace-dwg-v2/b1-koupelna-japandi.png": {
+    "vizualizace-dwg-v5/b1-koupelna-japandi.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
         1086
       ]
     },
-    "vizualizace-dwg-v2/b1-koupelna-mestsky.png": {
+    "vizualizace-dwg-v5/b1-koupelna-mestsky.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
         1086
       ]
     },
-    "vizualizace-dwg-v2/b2-obyvak-puvodni.png": {
+    "vizualizace-dwg-v5/b2-obyvak-puvodni.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
         1086
       ]
     },
-    "vizualizace-dwg-v2/b2-obyvak-japandi.png": {
+    "vizualizace-dwg-v5/b2-obyvak-japandi.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
         1086
       ]
     },
-    "vizualizace-dwg-v2/b2-obyvak-mestsky.png": {
+    "vizualizace-dwg-v5/b2-obyvak-mestsky.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
         1086
       ]
     },
-    "vizualizace-dwg-v2/b2-loznice-puvodni.png": {
+    "vizualizace-dwg-v5/b2-loznice-puvodni.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
         1086
       ]
     },
-    "vizualizace-dwg-v2/b2-loznice-japandi.png": {
+    "vizualizace-dwg-v5/b2-loznice-japandi.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
         1086
       ]
     },
-    "vizualizace-dwg-v2/b2-loznice-mestsky.png": {
+    "vizualizace-dwg-v5/b2-loznice-mestsky.png": {
       "status": "visual_review_only",
       "size_px": [
         1448,
@@ -163,5 +163,27 @@
       ]
     }
   },
-  "resolution_note": "The three approved photo-based bathroom 2 images retain cropped source pixel dimensions: 1300x954, 1300x954 and 1366x1004. No minimum resolution was agreed. The gallery uses object-fit:contain; preserve these source-based outputs without upscaling or regeneration. The other 15 images are 1448x1086."
+  "resolution_note": "The three approved photo-based bathroom 2 images retain cropped source pixel dimensions: 1300x954, 1300x954 and 1366x1004. No minimum resolution was agreed. The gallery uses object-fit:contain; preserve these source-based outputs without upscaling or regeneration. The other 18 images are 1448x1086.",
+  "comment_resolution": [
+    {
+      "scene": "b1-loznice",
+      "result": "Opravené všechny tři varianty podle fotografie 04: francouzské okno zachované, bez přidané šikmé stěny. Stůl otočený v půdorysu."
+    },
+    {
+      "scene": "b1-koupelna",
+      "result": "Oblý sprchový kout 80 × 80 cm a skleněná příčka ve všech třech stylech; aktualizovaný plán."
+    },
+    {
+      "scene": "b2-obyvak",
+      "result": "Dvě hloubky horních skříněk, zakončení u stropu a lednice, doplněná mikrovlnka. Přidaný řez skříňkami."
+    },
+    {
+      "scene": "b2-loznice",
+      "result": "Antény a zábradlí odstraněné z výhledu ve všech třech vizualizacích."
+    },
+    {
+      "scene": "b2-koupelna",
+      "result": "Komentář „OK“: zachované stávající tři varianty."
+    }
+  ]
 }

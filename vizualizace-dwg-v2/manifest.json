@@ -1,5 +1,5 @@
 {
-  "revision": "dwg-v4-photo-bedroom-and-living-reverse-2026-10-27",
+  "revision": "dwg-v5-client-comments-2026-10-27",
   "status": "reviewed",
   "items": {
     "b1-obyvak": {
@@ -70,11 +70,11 @@
     },
     "b1-koupelna": {
       "variants": {
-        "puvodni": "vizualizace-dwg-v2/b1-koupelna-puvodni.png",
-        "japandi": "vizualizace-dwg-v2/b1-koupelna-japandi.png",
-        "mestsky": "vizualizace-dwg-v2/b1-koupelna-mestsky.png"
+        "puvodni": "vizualizace-dwg-v5/b1-koupelna-puvodni.png",
+        "japandi": "vizualizace-dwg-v5/b1-koupelna-japandi.png",
+        "mestsky": "vizualizace-dwg-v5/b1-koupelna-mestsky.png"
       },
-      "note": "Nová koupelna: sprcha vlevo, umyvadlo uprostřed, WC vpravo; prostor pro spotřebič na protější stěně. Půdorys 2335 × 1544 mm se zkosením. Symbol 400 × 290 mm dosud není identifikovaný a je ponechaný jako rezerva v plánu, mimo tento záběr.",
+      "note": "Upraveno podle komentáře: rohový čtvrtkruhový sprchový kout 80 × 80 cm s oblým čelem, mezi umyvadlem a WC tenká skleněná příčka. Rozmístění sanity a pračky zachované. Přesný výrobek, výšku skla a montážní kotvení je nutné určit před realizací; neidentifikovaný symbol 400 × 290 mm zůstává rezervou.",
       "plan": "model-podle-dwg/plany/b1-koupelna.svg",
       "files": {
         "puvodni": {
@@ -82,32 +82,32 @@
             1448,
             1086
           ],
-          "sha256": "9bc47b300e7f95c9f1423936bf6b22faf80c443795f90f49b5767664a8964e3e"
+          "sha256": "7f4dc424f1ba03a63c7b3a7d873d260af2c3cac62c0a952bd9b68fd961783232"
         },
         "japandi": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "4cebc6f27f5cdc1266656685efac8dedc931cb213d677576169f8aaade18a7df"
+          "sha256": "587c4cd97c40d41e6cc76565fb3b3795fc1d884bc402fc153bdcc836c807ae75"
         },
         "mestsky": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "58a6f5c7fc37a2298364973f9f6a1b199964cf6df1b06b33adc3df1bc1bf184a"
+          "sha256": "0f036c7525ce90fddfcf69e366a56634f5ce54c1c88410ee427f16c0054d81fd"
         }
       },
       "source": "DWG-derived Blender conditioning + native image generation"
     },
     "b2-obyvak": {
       "variants": {
-        "puvodni": "vizualizace-dwg-v2/b2-obyvak-puvodni.png",
-        "japandi": "vizualizace-dwg-v2/b2-obyvak-japandi.png",
-        "mestsky": "vizualizace-dwg-v2/b2-obyvak-mestsky.png"
+        "puvodni": "vizualizace-dwg-v5/b2-obyvak-puvodni.png",
+        "japandi": "vizualizace-dwg-v5/b2-obyvak-japandi.png",
+        "mestsky": "vizualizace-dwg-v5/b2-obyvak-mestsky.png"
       },
-      "note": "Opravené pořadí linky: vysoký modul u vstupních dveří, varná deska uprostřed, dřez na opačném konci. Stůl zůstává u stěny. Rozměr linky 2910 × 600 mm. U židlí je nutné počítat s odsunutím; úzké místo je již v dodaném půdorysu.",
+      "note": "Podle komentáře: spodní závěsná řada kuchyně zapuštěná na přibližně 30 cm, horní hlubší řada až ke stropu, čela a pravý bok zarovnané s lednicí. Mikrovlnka ve spodní závěsné skříňce vedle lednice (v pohledu vlevo). Výška dělení podle konkrétní lednice; hloubku niky a větrání je nutné přizpůsobit spotřebiči. Jídelní židle jsou zasunuté; úzký průchod přibližně 56 cm při odsunutí židlí dále klesá.",
       "plan": "model-podle-dwg/plany/b2-obyvak.svg",
       "files": {
         "puvodni": {
@@ -115,32 +115,33 @@
             1448,
             1086
           ],
-          "sha256": "fcde827ee5450fe6bba7acfe31accd2e2477e3900ff546f88abc6480ab5bcc48"
+          "sha256": "f4a49c7faf0b375cf15f9d2c9535c68963758f80716436b37bfff1e62264c3ca"
         },
         "japandi": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "ff7be68f20ac039969dab4098212141232dece38b2af8b100e8c1c771b846e91"
+          "sha256": "4e198811a53324851247757ee3598617aeaee8283eb343e3b2e161e3a8f4da9c"
         },
         "mestsky": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "8199097375b8f13d39ae278952a5d5f9e8a3906c7e262acbd9392174fae42a5e"
+          "sha256": "230a177dd34e43aba859cf2e02a5bc8f12b5f45c94f9b0120256256b63228ad0"
         }
       },
-      "source": "DWG-derived Blender conditioning + native image generation"
+      "source": "DWG-derived Blender conditioning + native image generation",
+      "detail_plan": "model-podle-dwg/b2-kuchyn-rez-skrinek.svg"
     },
     "b2-loznice": {
       "variants": {
-        "puvodni": "vizualizace-dwg-v2/b2-loznice-puvodni.png",
-        "japandi": "vizualizace-dwg-v2/b2-loznice-japandi.png",
-        "mestsky": "vizualizace-dwg-v2/b2-loznice-mestsky.png"
+        "puvodni": "vizualizace-dwg-v5/b2-loznice-puvodni.png",
+        "japandi": "vizualizace-dwg-v5/b2-loznice-japandi.png",
+        "mestsky": "vizualizace-dwg-v5/b2-loznice-mestsky.png"
       },
-      "note": "Návrh v obálce z DWG: čelo postele na západní stěně, jižní okno vlevo v novém záběru. Rám 180 × 210 cm, skříň 120 × 60 cm na protější stěně mimo záběr. Výklenek je zachovaný v půdorysu, mimo tento pohled.",
+      "note": "Podle komentáře odstraněné antény a sousední zábradlí z výhledu ve všech třech návrzích. Jde o retuš výhledu pouze ve vizualizacích; skutečné původní fotografie zůstávají beze změny. Rozmístění postele, oken a zařízení zachované.",
       "plan": "model-podle-dwg/plany/b2-loznice.svg",
       "files": {
         "puvodni": {
@@ -148,21 +149,21 @@
             1448,
             1086
           ],
-          "sha256": "1187440565adfef614d22046cae8d2ba9702f93b638e02caca36c2d02b7d80bc"
+          "sha256": "8fefdd384114fdb0dd7db7d6b4ef979fb029eb0b12749f8290ba298ca7e78564"
         },
         "japandi": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "1c443e2678e25fd7531341c375dab410338355fd825286ecb7bac6bec5be5050"
+          "sha256": "d044e259be209abf55cd0c416d43c4e296d4bbecce0ec0631304ff989ceb2711"
         },
         "mestsky": {
           "size": [
             1448,
             1086
           ],
-          "sha256": "3c9a74a0073a46ae5abd5f22944b6c8bc4a0d60e6e54baf0ad012c3cf98e4580"
+          "sha256": "0eddcd2d825d86bd07fa27bc04a71b0a68727ed9e5ba7388e1e363ba88dff03b"
         }
       },
       "source": "DWG-derived Blender conditioning + native image generation"
@@ -234,7 +235,7 @@
       "note": "Doplňkový úhlopříčný pohled od vstupu přes kraj kuchyně směrem k velkému oknu. Stejné rozmístění: stůl u levé stěny, sedačka u velkého okna, TV na protější stěně. Originální fotografie 01 dokládá okna a původní stav; kamera návrhu je posunutá ke vstupu, nejde o přesné pixelové překrytí."
     }
   },
-  "download_url": "https://github.com/frantisekdron/sladek-byty-vizualizace/releases/download/mab-dwg-v4-2026-10-27/Sladek-komplet-pro-MAB-v4.zip",
+  "download_url": "https://github.com/frantisekdron/sladek-byty-vizualizace/releases/download/mab-dwg-v5-2026-10-27/Sladek-komplet-pro-MAB-v5.zip",
   "scope": "21 visualization images in 7 views, 3 styles; 6 dimensioned room plans. Bedroom1 rebuilt from source photo04. Extra living1 reverse view and wall art.",
   "verification_limits": "Numeric furniture footprints/clearances belong to the dimensioned model, not guaranteed millimetre geometry in AI images. Construction details, hinges, actual product tolerances and unknown400x290symbol require confirmation before purchasing/building.",
   "extra_views": [
@@ -244,6 +245,28 @@
       "before": "podklady/fotky/byt-1/obyvak-kuchyn/01.jpeg",
       "after": "vizualizace-dwg-v4/b1-obyvak-vstup-puvodni.png",
       "note": "Doplňkový úhlopříčný pohled od vstupu přes kraj kuchyně směrem k velkému oknu. Stejné rozmístění: stůl u levé stěny, sedačka u velkého okna, TV na protější stěně. Originální fotografie 01 dokládá okna a původní stav; kamera návrhu je posunutá ke vstupu, nejde o přesné pixelové překrytí."
+    }
+  ],
+  "comment_resolution": [
+    {
+      "scene": "b1-loznice",
+      "result": "Opravené všechny tři varianty podle fotografie 04: francouzské okno zachované, bez přidané šikmé stěny. Stůl otočený v půdorysu."
+    },
+    {
+      "scene": "b1-koupelna",
+      "result": "Oblý sprchový kout 80 × 80 cm a skleněná příčka ve všech třech stylech; aktualizovaný plán."
+    },
+    {
+      "scene": "b2-obyvak",
+      "result": "Dvě hloubky horních skříněk, zakončení u stropu a lednice, doplněná mikrovlnka. Přidaný řez skříňkami."
+    },
+    {
+      "scene": "b2-loznice",
+      "result": "Antény a zábradlí odstraněné z výhledu ve všech třech vizualizacích."
+    },
+    {
+      "scene": "b2-koupelna",
+      "result": "Komentář „OK“: zachované stávající tři varianty."
     }
   ]
 }
