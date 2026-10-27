@@ -1,0 +1,119 @@
+{
+  "model": "outputs/sladek-vizualizace/model-podle-dwg/model.json",
+  "scope": "Independent plan-footprint audit of proposed furniture extents and room/opening interactions in the six-room model. Coordinates are treated as axis-aligned rectangles in metres; rotation metadata is not used to rotate footprints because the supplied x/y/w/d values already describe plan extents. This is not code-compliance review or a final measured fit approval.",
+  "overall": "No unambiguous unintentional furniture-to-furniture footprint collision found in the proposed layouts. Several chair/table intersections are intentional seated-position footprints; kitchen/fridge overlap is explicitly reserved for later subtraction. Main follow-up is verification of the bedroom-1 entrance swing and confirmation that the wall-adjacent bed and continuous wardrobe run reflect the intended buildable furniture arrangement.",
+  "findings": [
+    {
+      "severity": "verify",
+      "room": "b1-loznice",
+      "items": [
+        "bed",
+        "east entry door"
+      ],
+      "finding": "The bed footprint is x=1.25..3.35 m, y=1.25..2.85 m. Against the conservative assumed entry swing square x=2.55..3.35 m, y=3.155..3.96 m, the rectangles do not intersect; their nearest vertical gap is 0.305 m. That 0.305 m is clearance to the hypothetical swing square, not the passage width. The open band north of the bed to the room's north wall is 1.60 m. The DWG review confirms an approximately 0.8 m opening but does not establish hinge/swing natively.",
+      "action": "Confirm the actual hinge and swing before final furniture selection; the current rectangle check shows no bed intrusion into the assumed sweep and a 1.60 m north-side approach band, subject to the true door geometry."
+    },
+    {
+      "severity": "verify",
+      "room": "b1-loznice",
+      "items": [
+        "bed",
+        "wardrobe"
+      ],
+      "finding": "The 2.1 m bed length places its east end exactly on the east room boundary (x=3.35 m); the 3.0 m wardrobe run likewise reaches the east boundary along the south wall. The stated 0.65 m clearance is the gap between the bed's south edge and wardrobe front, not a headboard or side clearance. There is no plan-footprint collision, but no tolerance is reserved at either wall end.",
+      "action": "Keep these wall placements only if the proposed furniture dimensions and wall/trim conditions are accepted; allow for skirting, headboard thickness, and installation tolerance when selecting actual pieces."
+    },
+    {
+      "severity": "note",
+      "room": "b1-loznice",
+      "items": [
+        "desk",
+        "desk_chair"
+      ],
+      "finding": "The desk reaches the north wall at y=4.45 m. With the chair's occupied footprint x=0.55..1.10 m, y=3.25..3.85 m, there is 0.40 m of clear floor southward before the bed begins at y=2.85 m; this assumes the chair remains in the same x band. The chair currently touches the desk edge when tucked in.",
+      "action": "The proposed chair has 0.40 m of southward pullback before the bed footprint; confirm that this travel is enough for the intended desk use."
+    },
+    {
+      "severity": "intentional-overlap",
+      "room": "b1-obyvak",
+      "items": [
+        "dining",
+        "chair00",
+        "chair01",
+        "chair10",
+        "chair11"
+      ],
+      "finding": "Each chair rectangle overlaps the table rectangle (approximately 0.13–0.15 m by 0.48 m), as expected for chairs tucked under the table. This is not evidence of a collision in the seated configuration; a pulled-out-chair circulation check is not encoded."
+    },
+    {
+      "severity": "intentional-overlap",
+      "room": "b1-obyvak",
+      "items": [
+        "kitchen_long",
+        "high_fridge"
+      ],
+      "finding": "The fridge occupies 0.60 by 0.60 m of the kitchen-long footprint. This appears to be the explicitly planned fridge subtraction, not usable simultaneous cabinet volume."
+    },
+    {
+      "severity": "intentional-overlap",
+      "room": "b2-obyvak",
+      "items": [
+        "dining",
+        "chair00",
+        "chair01",
+        "chair10",
+        "chair11"
+      ],
+      "finding": "Chair rectangles overlap the table as tucked-in seats. The occupied geometry is plausible; pulled-out chairs and resulting circulation are not represented."
+    },
+    {
+      "severity": "intentional-overlap",
+      "room": "b2-obyvak",
+      "items": [
+        "kitchen",
+        "high_fridge"
+      ],
+      "finding": "The fridge footprint shares 0.60 by 0.60 m with the kitchen footprint, consistent with the planned fridge cutout."
+    },
+    {
+      "severity": "verify",
+      "room": "b1-koupelna",
+      "items": [
+        "shower",
+        "basin",
+        "wc",
+        "cabinet",
+        "reserved_symbol"
+      ],
+      "finding": "No positive-area rectangle overlaps are present. Fixture and appliance envelopes fit the nominal room dimensions, but the diagonal entry and WC partition are represented as metadata/lines rather than a modeled door swing and full clearance zone. The 400 x 290 mm reserved symbol remains unidentified in the source evidence.",
+      "action": "Check the installed bathroom fixture dimensions and the diagonal entry/partition clearance before calling the bathroom fit exact; do not assign the reserved symbol a fixture identity without evidence."
+    },
+    {
+      "severity": "note",
+      "room": "b2-loznice",
+      "items": [
+        "bed",
+        "west wall",
+        "south window"
+      ],
+      "finding": "The bed has 0.05 m nominal clearance to the west wall. Its headboard is at the west end (x≈0.05..0.15 m), outside the south-window horizontal span x=0.95..3.15 m. The bed body is assumed about 0.55 m high, below the user-confirmed 0.80 m sill; the model's 1.10 m overall bed envelope must not be read as the mattress/body height. Window clearance remains dependent on the actual frame/headboard geometry and operation.",
+      "action": "Retain the current 0.80 m user-confirmed sill assumption and check the selected bed/frame and window operation; the headboard lies outside the window's horizontal span."
+    },
+    {
+      "severity": "note",
+      "room": "b2-koupelna",
+      "items": [
+        "bath",
+        "vanity",
+        "technical_cabinet"
+      ],
+      "finding": "No positive-area footprint intersections found. The bath and vanity approach closely along the north-east corner; only axis-aligned envelope checking was performed and the west entry door swing is absent from this room's model."
+    }
+  ],
+  "limitations": [
+    "The model's furniture dimensions are proposed external envelopes, not product-specific measurements.",
+    "Room opening definitions do not encode all door hinge/swing geometry; no complete circulation or accessibility clearances were validated.",
+    "The source DWG JSON is a large entity parse; this audit relies on the existing extracted dimensions and furniture audit where source geometry had already been interpreted.",
+    "Ceiling, door height, sill height, and window head height in the model are user-confirmed assumptions, but they do not by themselves validate furniture fit or opening operation."
+  ]
+}

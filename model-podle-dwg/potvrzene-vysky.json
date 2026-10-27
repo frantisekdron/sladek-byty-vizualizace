@@ -1,0 +1,17 @@
+{
+  "source": "User message 2026-10-27",
+  "units": "mm",
+  "ceiling_height": 2600,
+  "door_height": 1970,
+  "window_sill": 800,
+  "window_head": 2350,
+  "french_window_sill": 0,
+  "interpretation": "Nadpraží 2350 mm interpreted as window opening upper edge, measured from finished floor. Door height kept independently at 1970 mm.",
+  "derived": {
+    "regular_window_height": 1550,
+    "french_window_height": 2350,
+    "wall_above_window": 250,
+    "wall_above_door": 630
+  },
+  "status": "Dimensions supplied by user; frame clearances and actual product sizes not specified."
+}

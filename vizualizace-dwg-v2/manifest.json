@@ -1,0 +1,207 @@
+{
+  "revision": "dwg-v2-2026-10-27",
+  "status": "reviewed",
+  "items": {
+    "b1-obyvak": {
+      "variants": {
+        "puvodni": "vizualizace-dwg-v2/b1-obyvak-puvodni.png",
+        "japandi": "vizualizace-dwg-v2/b1-obyvak-japandi.png",
+        "mestsky": "vizualizace-dwg-v2/b1-obyvak-mestsky.png"
+      },
+      "note": "Opraveno: kuchyň do L, vstup do koupelny ve zkosení, stůl přisazený ke stěně. Rozměry a obrysy jsou doložené samostatným půdorysem; perspektivní obraz je AI vizualizace návrhu.",
+      "plan": "model-podle-dwg/plany/b1-obyvak.svg",
+      "files": {
+        "puvodni": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "04f5109515c0b22b9cb7fb8f9d592a2eafb0624357846ebbcb8994610d2014bf"
+        },
+        "japandi": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "dac396d7027c189cc1e2b160d2d1795cca733138a0593640edd3708fd0573bd4"
+        },
+        "mestsky": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "76157ac0f38fac3abb869017bbb499971dd43d202b763a4238ff589700688b12"
+        }
+      },
+      "source": "DWG-derived Blender conditioning + native image generation"
+    },
+    "b1-loznice": {
+      "variants": {
+        "puvodni": "vizualizace-dwg-v2/b1-loznice-puvodni.png",
+        "japandi": "vizualizace-dwg-v2/b1-loznice-japandi.png",
+        "mestsky": "vizualizace-dwg-v2/b1-loznice-mestsky.png"
+      },
+      "note": "Nové rozmístění podle zadání: čelo postele proti francouzskému oknu, vestavěná skříň na jižní stěně místo původního obrazu, stůl napravo při pohledu na okno. Nový záběr je od okna, které je za kamerou. Rám postele 160 × 210 cm, skříň 300 × 60 cm, stůl 130 × 60 cm; odstup ke skříni 65 cm v půdorysu.",
+      "plan": "model-podle-dwg/plany/b1-loznice.svg",
+      "files": {
+        "puvodni": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "df157be900b4370e4c6587ff95bcaf766e529043b0d50594b3eaaf9432fdbe58"
+        },
+        "japandi": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "728518c8f4f986946213212dc3bcc5d0900e7069eae2b8a5eb75bbaf0843bae1"
+        },
+        "mestsky": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "b85558517d545bd93a5aebf8ee9db0efaf97af22f6777a6a2d85dcd9d21aa77a"
+        }
+      },
+      "source": "DWG-derived Blender conditioning + native image generation"
+    },
+    "b1-koupelna": {
+      "variants": {
+        "puvodni": "vizualizace-dwg-v2/b1-koupelna-puvodni.png",
+        "japandi": "vizualizace-dwg-v2/b1-koupelna-japandi.png",
+        "mestsky": "vizualizace-dwg-v2/b1-koupelna-mestsky.png"
+      },
+      "note": "Nová koupelna: sprcha vlevo, umyvadlo uprostřed, WC vpravo; prostor pro spotřebič na protější stěně. Půdorys 2335 × 1544 mm se zkosením. Symbol 400 × 290 mm dosud není identifikovaný a je ponechaný jako rezerva v plánu, mimo tento záběr.",
+      "plan": "model-podle-dwg/plany/b1-koupelna.svg",
+      "files": {
+        "puvodni": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "9bc47b300e7f95c9f1423936bf6b22faf80c443795f90f49b5767664a8964e3e"
+        },
+        "japandi": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "4cebc6f27f5cdc1266656685efac8dedc931cb213d677576169f8aaade18a7df"
+        },
+        "mestsky": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "58a6f5c7fc37a2298364973f9f6a1b199964cf6df1b06b33adc3df1bc1bf184a"
+        }
+      },
+      "source": "DWG-derived Blender conditioning + native image generation"
+    },
+    "b2-obyvak": {
+      "variants": {
+        "puvodni": "vizualizace-dwg-v2/b2-obyvak-puvodni.png",
+        "japandi": "vizualizace-dwg-v2/b2-obyvak-japandi.png",
+        "mestsky": "vizualizace-dwg-v2/b2-obyvak-mestsky.png"
+      },
+      "note": "Opravené pořadí linky: vysoký modul u vstupních dveří, varná deska uprostřed, dřez na opačném konci. Stůl zůstává u stěny. Rozměr linky 2910 × 600 mm. U židlí je nutné počítat s odsunutím; úzké místo je již v dodaném půdorysu.",
+      "plan": "model-podle-dwg/plany/b2-obyvak.svg",
+      "files": {
+        "puvodni": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "fcde827ee5450fe6bba7acfe31accd2e2477e3900ff546f88abc6480ab5bcc48"
+        },
+        "japandi": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "ff7be68f20ac039969dab4098212141232dece38b2af8b100e8c1c771b846e91"
+        },
+        "mestsky": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "8199097375b8f13d39ae278952a5d5f9e8a3906c7e262acbd9392174fae42a5e"
+        }
+      },
+      "source": "DWG-derived Blender conditioning + native image generation"
+    },
+    "b2-loznice": {
+      "variants": {
+        "puvodni": "vizualizace-dwg-v2/b2-loznice-puvodni.png",
+        "japandi": "vizualizace-dwg-v2/b2-loznice-japandi.png",
+        "mestsky": "vizualizace-dwg-v2/b2-loznice-mestsky.png"
+      },
+      "note": "Návrh v obálce z DWG: čelo postele na západní stěně, jižní okno vlevo v novém záběru. Rám 180 × 210 cm, skříň 120 × 60 cm na protější stěně mimo záběr. Výklenek je zachovaný v půdorysu, mimo tento pohled.",
+      "plan": "model-podle-dwg/plany/b2-loznice.svg",
+      "files": {
+        "puvodni": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "1187440565adfef614d22046cae8d2ba9702f93b638e02caca36c2d02b7d80bc"
+        },
+        "japandi": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "1c443e2678e25fd7531341c375dab410338355fd825286ecb7bac6bec5be5050"
+        },
+        "mestsky": {
+          "size": [
+            1448,
+            1086
+          ],
+          "sha256": "3c9a74a0073a46ae5abd5f22944b6c8bc4a0d60e6e54baf0ad012c3cf98e4580"
+        }
+      },
+      "source": "DWG-derived Blender conditioning + native image generation"
+    },
+    "b2-koupelna": {
+      "variants": {
+        "puvodni": "vizualizace-dwg-v2/b2-koupelna-puvodni.png",
+        "japandi": "vizualizace-dwg-v2/b2-koupelna-japandi.png",
+        "mestsky": "vizualizace-dwg-v2/b2-koupelna-mestsky.png"
+      },
+      "note": "Stávající koupelna zachovaná podle skutečné fotografie, včetně vany, umyvadlové skříňky, obkladů a zástěny. Tři varianty mění jen doplňky; použité jsou již srovnané záběry. Rozměry výrobků nelze z fotografie potvrdit.",
+      "plan": "model-podle-dwg/plany/b2-koupelna.svg",
+      "files": {
+        "puvodni": {
+          "size": [
+            1300,
+            954
+          ],
+          "sha256": "2b79925af9250a0b934fce0e55f802966488fd57bd0291f5168408c96bee5fc0"
+        },
+        "japandi": {
+          "size": [
+            1300,
+            954
+          ],
+          "sha256": "9e9039789b4df61117634af9510cda227ffb219c7d7687654ec43da297bad7ce"
+        },
+        "mestsky": {
+          "size": [
+            1366,
+            1004
+          ],
+          "sha256": "f38593db630b5e100183442410f58943d402fc39153532d6cc502dfeb691536b"
+        }
+      },
+      "source": "photo-based retained corrected views"
+    }
+  },
+  "download_url": "https://github.com/frantisekdron/sladek-byty-vizualizace/releases/download/mab-dwg-v2-2026-10-27/Sladek-komplet-pro-MAB-v2.zip",
+  "scope": "18 design images, 6 dimensioned furniture plans, original photographs preserved. 15 newly generated images; 3 existing photograph-based bathroom views retained.",
+  "verification_limits": "Numeric furniture footprints/clearances belong to the dimensioned model, not guaranteed millimetre geometry in AI images. Construction details, hinges, actual product tolerances and unknown400x290symbol require confirmation before purchasing/building."
+}

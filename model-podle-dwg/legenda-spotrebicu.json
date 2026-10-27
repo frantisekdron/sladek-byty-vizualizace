@@ -1,0 +1,15 @@
+{
+  "source": "Upřesnění uživatele 2026-10-27",
+  "symbol": "Blesk ve skříňovém symbolu",
+  "meaning": "Elektrický spotřebič",
+  "bathroom_examples": [
+    "pračka",
+    "sušička"
+  ],
+  "kitchen_examples": [
+    "lednice",
+    "trouba",
+    "myčka"
+  ],
+  "constraint": "Konkrétní typ spotřebiče a sestava nad sebou nejsou samotným symbolem určeny. Zachovat obrys a polohu z DWG; výšku a konkrétní výrobek určit samostatně."
+}

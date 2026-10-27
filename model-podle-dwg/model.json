@@ -1,0 +1,767 @@
+{
+  "revision": "dwg-v1",
+  "source_dwg": "../podklady/vykresy/pudorysy.dwg",
+  "assumptions": {
+    "ceiling": 2.6,
+    "door_height": 1.97,
+    "window_sill": 0.8,
+    "window_head": 2.35,
+    "note": "Heights confirmed by user on 2026-10-27: ceiling 2.60 m, door 1.97 m, sill 0.80 m, window head 2.35 m; French opening from floor. Furniture sizes are proposed external envelopes, not inferred from older AI images."
+  },
+  "rooms": {
+    "b1-obyvak": {
+      "size": [
+        7.10017,
+        4.446
+      ],
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          7.10017,
+          0
+        ],
+        [
+          7.10017,
+          2.78817
+        ],
+        [
+          5.29406,
+          2.78817
+        ],
+        [
+          4.65017,
+          3.48968
+        ],
+        [
+          4.65017,
+          4.446
+        ],
+        [
+          0,
+          4.446
+        ]
+      ],
+      "openings": [
+        {
+          "wall": "west",
+          "a": 0.05,
+          "b": 4.36,
+          "sill": 0.0,
+          "top": 2.35
+        },
+        {
+          "wall": "north",
+          "a": 3.15017,
+          "b": 4.65017,
+          "sill": 0.8,
+          "top": 2.35
+        },
+        {
+          "wall": "south",
+          "a": 5.65017,
+          "b": 6.45017,
+          "sill": 0,
+          "top": 1.97,
+          "door": true
+        }
+      ],
+      "furniture": [
+        {
+          "id": "sofa_main",
+          "kind": "sofa",
+          "x": 0,
+          "y": 0,
+          "w": 3.00039,
+          "d": 1.00159,
+          "h": 0.82,
+          "rotation": 0
+        },
+        {
+          "id": "sofa_return",
+          "kind": "sofa",
+          "x": 0,
+          "y": 1.00159,
+          "w": 0.87597,
+          "d": 1.65,
+          "h": 0.82,
+          "rotation": 90
+        },
+        {
+          "id": "coffee_table",
+          "kind": "coffee",
+          "x": 1.54014,
+          "y": 1.67301,
+          "w": 1.2,
+          "d": 0.6,
+          "h": 0.37,
+          "rotation": 0
+        },
+        {
+          "id": "dining",
+          "kind": "dtable",
+          "x": 4.02289,
+          "y": 0,
+          "w": 0.8,
+          "d": 1.4715,
+          "h": 0.75,
+          "rotation": 0
+        },
+        {
+          "id": "chair00",
+          "kind": "chair",
+          "x": 3.71289,
+          "y": 0.14363000000000004,
+          "w": 0.46,
+          "d": 0.48,
+          "h": 0.81,
+          "rotation": 90
+        },
+        {
+          "id": "chair01",
+          "kind": "chair",
+          "x": 3.71289,
+          "y": 0.8100100000000001,
+          "w": 0.46,
+          "d": 0.48,
+          "h": 0.81,
+          "rotation": 90
+        },
+        {
+          "id": "chair10",
+          "kind": "chair",
+          "x": 4.69201,
+          "y": 0.14363000000000004,
+          "w": 0.46,
+          "d": 0.48,
+          "h": 0.81,
+          "rotation": -90
+        },
+        {
+          "id": "chair11",
+          "kind": "chair",
+          "x": 4.69201,
+          "y": 0.8100100000000001,
+          "w": 0.46,
+          "d": 0.48,
+          "h": 0.81,
+          "rotation": -90
+        },
+        {
+          "id": "kitchen_short",
+          "kind": "kitchen_sink",
+          "x": 5.30026,
+          "y": 2.18817,
+          "w": 1.79991,
+          "d": 0.6,
+          "h": 0.9,
+          "rotation": 0
+        },
+        {
+          "id": "kitchen_long",
+          "kind": "kitchen_hob",
+          "x": 6.50017,
+          "y": 0,
+          "w": 0.6,
+          "d": 2.18817,
+          "h": 0.9,
+          "rotation": 90
+        },
+        {
+          "id": "high_fridge",
+          "kind": "fridge",
+          "x": 6.50017,
+          "y": 0,
+          "w": 0.6,
+          "d": 0.59972,
+          "h": 2.15,
+          "rotation": 0
+        },
+        {
+          "id": "tv",
+          "kind": "tv",
+          "x": 1.52981,
+          "y": 4.30276,
+          "w": 1.2,
+          "d": 0.05,
+          "h": 0.72,
+          "rotation": 0
+        }
+      ],
+      "bathroom_shell": [
+        [
+          4.65017,
+          4.446
+        ],
+        [
+          7.10017,
+          4.446
+        ],
+        [
+          7.10017,
+          2.78817
+        ],
+        [
+          5.29406,
+          2.78817
+        ],
+        [
+          4.65017,
+          3.48968
+        ]
+      ],
+      "id": "b1-obyvak",
+      "height": 2.6,
+      "height_status": "user-confirmed 2026-10-27",
+      "units": "metres"
+    },
+    "b1-koupelna": {
+      "size": [
+        2.335,
+        1.5441
+      ],
+      "polygon": [
+        [
+          0,
+          1.5441
+        ],
+        [
+          2.335,
+          1.5441
+        ],
+        [
+          2.335,
+          0
+        ],
+        [
+          0.55838,
+          0
+        ],
+        [
+          0,
+          0.60862
+        ]
+      ],
+      "openings": [],
+      "furniture": [
+        {
+          "id": "shower",
+          "kind": "shower",
+          "x": 0,
+          "y": 0.7441,
+          "w": 0.8,
+          "d": 0.8,
+          "h": 2.05,
+          "rotation": 0
+        },
+        {
+          "id": "basin",
+          "kind": "basin",
+          "x": 0.94815,
+          "y": 1.17809,
+          "w": 0.49711,
+          "d": 0.36601,
+          "h": 0.84,
+          "rotation": 0
+        },
+        {
+          "id": "wc",
+          "kind": "wc",
+          "x": 1.7749,
+          "y": 1.0441,
+          "w": 0.37004,
+          "d": 0.5,
+          "h": 0.42,
+          "rotation": 0
+        },
+        {
+          "id": "cabinet",
+          "kind": "appliance_space",
+          "x": 1.72922,
+          "y": 0,
+          "w": 0.6,
+          "d": 0.6,
+          "h": 0.85,
+          "rotation": 0,
+          "equipment_candidates": [
+            "washing_machine",
+            "dryer"
+          ],
+          "equipment_status": "Appliance symbol meaning confirmed by user; exact product and stacking unspecified.",
+          "height_status": "provisional envelope, not measured appliance height"
+        },
+        {
+          "id": "reserved_symbol",
+          "kind": "reserve",
+          "x": 0.87347,
+          "y": 0,
+          "w": 0.4,
+          "d": 0.29,
+          "h": 0.8,
+          "rotation": 0
+        }
+      ],
+      "wc_partition": [
+        [
+          1.57922,
+          1.5441
+        ],
+        [
+          1.57922,
+          1.0721
+        ]
+      ],
+      "entry_diagonal": true,
+      "id": "b1-koupelna",
+      "height": 2.6,
+      "height_status": "user-confirmed 2026-10-27",
+      "units": "metres"
+    },
+    "b1-loznice": {
+      "size": [
+        3.35,
+        4.45
+      ],
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          3.35,
+          0
+        ],
+        [
+          3.35,
+          4.2
+        ],
+        [
+          2.9,
+          4.2
+        ],
+        [
+          2.9,
+          4.45
+        ],
+        [
+          0,
+          4.45
+        ]
+      ],
+      "openings": [
+        {
+          "wall": "west",
+          "a": 1.35,
+          "b": 3.15,
+          "sill": 0,
+          "top": 2.35
+        },
+        {
+          "wall": "east",
+          "a": 3.155,
+          "b": 3.96,
+          "sill": 0,
+          "top": 1.97,
+          "door": true
+        }
+      ],
+      "furniture": [
+        {
+          "id": "bed",
+          "kind": "bed",
+          "x": 1.25,
+          "y": 1.25,
+          "w": 2.1,
+          "d": 1.6,
+          "h": 1.1,
+          "rotation": 90
+        },
+        {
+          "id": "desk",
+          "kind": "desk",
+          "x": 0.15,
+          "y": 3.85,
+          "w": 1.3,
+          "d": 0.6,
+          "h": 0.75,
+          "rotation": 0
+        },
+        {
+          "id": "desk_chair",
+          "kind": "chair",
+          "x": 0.55,
+          "y": 3.25,
+          "w": 0.55,
+          "d": 0.6,
+          "h": 0.83,
+          "rotation": 0
+        },
+        {
+          "id": "wardrobe",
+          "kind": "wardrobe",
+          "x": 0.35,
+          "y": 0,
+          "w": 3,
+          "d": 0.6,
+          "h": 2.6,
+          "rotation": 0
+        }
+      ],
+      "occupied_chair": [
+        0.55,
+        3.05,
+        1.1,
+        3.85
+      ],
+      "layout_instruction": "User correction 2026-10-27: headboard east opposite west French window; wardrobe south replacing artwork above previous bed; desk north to right when facing window. Wardrobe sliding doors.",
+      "clearances_m": {
+        "bed_foot_to_window_wall": 1.25,
+        "bed_side_to_wardrobe_front": 0.65,
+        "bed_to_north_wall": 1.6,
+        "bed_to_entry_swing_box": 0.305
+      },
+      "validation_limits": "Bed dimensions are external frame 1600 x 2100 mm, not mattress size. Door and balcony hinge/swing assumptions require verification. Not a final render.",
+      "id": "b1-loznice",
+      "height": 2.6,
+      "height_status": "user-confirmed 2026-10-27",
+      "units": "metres"
+    },
+    "b2-obyvak": {
+      "size": [
+        4.1,
+        4.076
+      ],
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          4.1,
+          0
+        ],
+        [
+          4.1,
+          4.076
+        ],
+        [
+          0,
+          4.076
+        ]
+      ],
+      "openings": [
+        {
+          "wall": "north",
+          "a": 0.95,
+          "b": 2.75,
+          "sill": 0.8,
+          "top": 2.35
+        },
+        {
+          "wall": "south",
+          "a": 0.34,
+          "b": 1.14,
+          "sill": 0,
+          "top": 1.97,
+          "door": true
+        }
+      ],
+      "furniture": [
+        {
+          "id": "sofa",
+          "kind": "sofa",
+          "x": 0,
+          "y": 1.676,
+          "w": 1,
+          "d": 2.4,
+          "h": 0.82,
+          "rotation": 90
+        },
+        {
+          "id": "sofa_return",
+          "kind": "sofa",
+          "x": 1,
+          "y": 3.4456,
+          "w": 0.7992,
+          "d": 0.6304,
+          "h": 0.82,
+          "rotation": 0
+        },
+        {
+          "id": "coffee_table",
+          "kind": "coffee",
+          "x": 1.3689,
+          "y": 1.96768,
+          "w": 0.6,
+          "d": 1.2,
+          "h": 0.37,
+          "rotation": 0
+        },
+        {
+          "id": "dining",
+          "kind": "dtable",
+          "x": 2.72576,
+          "y": 1.386,
+          "w": 1.37424,
+          "d": 0.7,
+          "h": 0.75,
+          "rotation": 90
+        },
+        {
+          "id": "chair00",
+          "kind": "chair",
+          "x": 2.9222,
+          "y": 1.1453,
+          "w": 0.42,
+          "d": 0.43,
+          "h": 0.81,
+          "rotation": 0
+        },
+        {
+          "id": "chair01",
+          "kind": "chair",
+          "x": 2.9222,
+          "y": 1.8964,
+          "w": 0.42,
+          "d": 0.43,
+          "h": 0.81,
+          "rotation": 180
+        },
+        {
+          "id": "chair10",
+          "kind": "chair",
+          "x": 3.5164,
+          "y": 1.1453,
+          "w": 0.42,
+          "d": 0.43,
+          "h": 0.81,
+          "rotation": 0
+        },
+        {
+          "id": "chair11",
+          "kind": "chair",
+          "x": 3.5164,
+          "y": 1.8964,
+          "w": 0.42,
+          "d": 0.43,
+          "h": 0.81,
+          "rotation": 180
+        },
+        {
+          "id": "kitchen",
+          "kind": "kitchen_hob",
+          "x": 1.19,
+          "y": 0,
+          "w": 2.91,
+          "d": 0.6,
+          "h": 0.9,
+          "rotation": 180
+        },
+        {
+          "id": "high_fridge",
+          "kind": "fridge",
+          "x": 1.19,
+          "y": 0,
+          "w": 0.6,
+          "d": 0.6,
+          "h": 2.15,
+          "rotation": 0
+        },
+        {
+          "id": "tv",
+          "kind": "tv",
+          "x": 3.47,
+          "y": 2.7,
+          "w": 0.6,
+          "d": 1.0,
+          "h": 0.72,
+          "rotation": 90
+        }
+      ],
+      "id": "b2-obyvak",
+      "height": 2.6,
+      "height_status": "user-confirmed 2026-10-27",
+      "units": "metres"
+    },
+    "b2-loznice": {
+      "size": [
+        4.3,
+        3.47926
+      ],
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          4.3,
+          0
+        ],
+        [
+          4.3,
+          1.2
+        ],
+        [
+          4.1,
+          1.2
+        ],
+        [
+          4.1,
+          3.47926
+        ],
+        [
+          0,
+          3.47926
+        ]
+      ],
+      "openings": [
+        {
+          "wall": "south",
+          "a": 0.95,
+          "b": 3.15,
+          "sill": 0.8,
+          "top": 2.35
+        },
+        {
+          "wall": "north",
+          "a": 0.65,
+          "b": 1.45,
+          "sill": 0,
+          "top": 1.97,
+          "door": true
+        }
+      ],
+      "furniture": [
+        {
+          "id": "bed",
+          "kind": "bed",
+          "x": 0.05,
+          "y": 0.65,
+          "w": 2.1,
+          "d": 1.8,
+          "h": 1.1,
+          "rotation": 90
+        },
+        {
+          "id": "nightstand_left",
+          "kind": "nightstand",
+          "x": 0.1,
+          "y": 0.15,
+          "w": 0.45,
+          "d": 0.4,
+          "h": 0.48,
+          "rotation": 0
+        },
+        {
+          "id": "nightstand_right",
+          "kind": "nightstand",
+          "x": 0.1,
+          "y": 2.55,
+          "w": 0.45,
+          "d": 0.4,
+          "h": 0.48,
+          "rotation": 0
+        },
+        {
+          "id": "wardrobe",
+          "kind": "wardrobe",
+          "x": 3.5,
+          "y": 1.3,
+          "w": 0.6,
+          "d": 1.2,
+          "h": 2.25,
+          "rotation": 90
+        }
+      ],
+      "id": "b2-loznice",
+      "height": 2.6,
+      "height_status": "user-confirmed 2026-10-27",
+      "units": "metres"
+    },
+    "b2-koupelna": {
+      "size": [
+        2.81,
+        2.02
+      ],
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          2.81,
+          0
+        ],
+        [
+          2.81,
+          2.02
+        ],
+        [
+          0,
+          2.02
+        ]
+      ],
+      "openings": [
+        {
+          "wall": "west",
+          "a": 0.85,
+          "b": 1.55,
+          "sill": 0,
+          "top": 1.97,
+          "door": true
+        }
+      ],
+      "furniture": [
+        {
+          "id": "bath",
+          "kind": "bath",
+          "x": 2.0911,
+          "y": 0.2739,
+          "w": 0.666,
+          "d": 1.503,
+          "h": 0.59,
+          "rotation": 0
+        },
+        {
+          "id": "vanity",
+          "kind": "basin",
+          "x": 0.3673,
+          "y": 1.64,
+          "w": 0.8,
+          "d": 0.38,
+          "h": 0.85,
+          "rotation": 0
+        },
+        {
+          "id": "technical_cabinet",
+          "kind": "appliance_space",
+          "x": 0,
+          "y": 0,
+          "w": 0.644,
+          "d": 0.642,
+          "h": 0.85,
+          "rotation": 0,
+          "equipment_candidates": [
+            "washing_machine",
+            "dryer"
+          ],
+          "equipment_status": "Appliance symbol meaning confirmed by user; exact product and stacking unspecified.",
+          "height_status": "provisional envelope, not measured appliance height"
+        }
+      ],
+      "partition": [
+        2.01,
+        0,
+        2.01,
+        2.02
+      ],
+      "note": "Vanity/bath dimensions follow CAD symbols, existing product sizes unknown; actual bathroom photographs remain primary reference for fixed equipment.",
+      "id": "b2-koupelna",
+      "height": 2.6,
+      "height_status": "user-confirmed 2026-10-27",
+      "units": "metres"
+    }
+  }
+}
